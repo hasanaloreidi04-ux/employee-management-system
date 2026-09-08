@@ -1,0 +1,32 @@
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Java and Maven
+target/
+*.class
+*.jar
+*.war
+*.log
+
+# Node.js
+node_modules/
+dist/
+coverage/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+out/
+
+# Visual Studio Code
+.vscode/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Local Spring configuration
+application-local.properties
+application-local.yml
